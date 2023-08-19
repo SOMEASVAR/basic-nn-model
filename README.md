@@ -130,18 +130,21 @@ Include screenshot of the dataset
 
 
 ### Training Loss Vs Iteration Plot
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/ea7f9c20-9ad7-4437-9470-7362aad0b08a)
+
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/0eaaa88a-cbad-4eac-8b1f-e1f767357829)
 
 
 
 ### Test Data Root Mean Squared Error
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/dc6ceb6d-feeb-4550-af31-1d4b66e2c779)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/44ff5401-4e2b-4a6c-83b8-1b063ed86859)
+
 
 
 ### New Sample Data Prediction
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/88309ab7-c6e8-46c9-9222-40d25bef0822)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/8e93cf51-91c2-49f0-b6b6-ec0e3a9c93ae)
+
 
 
 ## RESULT
