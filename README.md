@@ -7,13 +7,17 @@ To develop a neural network regression model for the given dataset.
 ## THEORY
 A neural network is a computer program inspired by how our brains work. It's used to solve problems by finding patterns in data. Imagine a network of interconnected virtual "neurons." Each neuron takes in information, processes it, and passes it along.
 
-The scope of the project includes data preprocessing, training, and evaluation of the neural network. However, it's important to acknowledge potential limitations, such as computational resources and constraints on model complexity.Performance evaluation will be carried out using appropriate regression metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or R-squared value. This will allow us to quantitatively measure the accuracy of the model's predictions against actual target values.
+A Neural Network Regression Model is a type of machine learning algorithm that is designed to predict continuous numeric values based on input data. It utilizes layers of interconnected nodes, or neurons, to learn complex patterns in the data. The architecture typically consists of an input layer, one or more hidden layers with activation functions, and an output layer that produces the regression predictions.
+
+This model can capture intricate relationships within data, making it suitable for tasks such as predicting prices, quantities, or any other continuous numerical outputs.
+
 
 
 
 ## Neural Network Model
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/0c5ab2c0-9ad7-429f-baa8-2be74ce635ed)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/d05d6f12-a374-478c-8542-0e4086abc931)
+
 
 
 ## DESIGN STEPS
@@ -95,15 +99,15 @@ x_train,x_test,y_train,y_test = train_test_split(x_n,y,test_size = 0.3,random_st
 ### Create a Neural Network & Train it:
 ```
 ai_brain = Seq([
-    Den(8,activation = 'relu',input_shape=[1]),
-    Den(15,activation = 'relu'),
+    Den(9,activation = 'relu',input_shape=[1]),
+    Den(16,activation = 'relu'),
     Den(1),
 ])
 
 ai_brain.compile(optimizer = 'rmsprop',loss = 'mse')
 
-ai_brain.fit(x_train,y_train,epochs=2000)
-ai_brain.fit(x_train,y_train,epochs=2000)
+ai_brain.fit(x_train,y_train,epochs=1000)
+ai_brain.fit(x_train,y_train,epochs=1000)
 ```
 ### Plot the Loss:
 ```
@@ -135,19 +139,22 @@ Include screenshot of the dataset
 
 ### Training Loss Vs Iteration Plot
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/0eaaa88a-cbad-4eac-8b1f-e1f767357829)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/46866336-c405-41db-9978-7a9060e25581)
+
 
 
 
 ### Test Data Root Mean Squared Error
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/44ff5401-4e2b-4a6c-83b8-1b063ed86859)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/3e55fcb5-00b5-4ff2-b6c6-fcf9c77f1084)
+
 
 
 
 ### New Sample Data Prediction
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/8e93cf51-91c2-49f0-b6b6-ec0e3a9c93ae)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/c39027a4-6e1b-4f7e-a2fa-a2f0cf682bfd)
+
 
 
 
