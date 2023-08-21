@@ -5,6 +5,9 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
+A neural network is a computer program inspired by how our brains work. It's used to solve problems by finding patterns in data. Imagine a network of interconnected virtual "neurons." Each neuron takes in information, processes it, and passes it along.
+
+The scope of the project includes data preprocessing, training, and evaluation of the neural network. However, it's important to acknowledge potential limitations, such as computational resources and constraints on model complexity.Performance evaluation will be carried out using appropriate regression metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or R-squared value. This will allow us to quantitatively measure the accuracy of the model's predictions against actual target values.
 
 
 
