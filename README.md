@@ -145,7 +145,8 @@ ai_brain.predict(x_n_n)
 
 ### Test Data Root Mean Squared Error
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/3e55fcb5-00b5-4ff2-b6c6-fcf9c77f1084)
+![Uploading image.png…]()
+
 
 
 
