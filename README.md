@@ -152,7 +152,9 @@ ai_brain.predict(x_n_n)
 
 ### New Sample Data Prediction
 
-![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/c39027a4-6e1b-4f7e-a2fa-a2f0cf682bfd)
+![image](https://github.com/SOMEASVAR/basic-nn-model/assets/93434149/d321388f-a934-494e-a921-b5688f61708c)
+
+
 
 
 
